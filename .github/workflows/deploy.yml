@@ -18,13 +18,16 @@ jobs:
       - name: Clone
         uses: actions/checkout@v4
 
+      - name: Pages Config
+        uses: actions/configure-pages@v5
+
       - name: Building
         run: |
           npm install
           npm run build
 
-      - name: Pages Config
-        uses: actions/configure-pages@v5
+      - name: List files
+        run: ls -R
 
       - name: Upload
         uses: actions/upload-pages-artifact@v3
