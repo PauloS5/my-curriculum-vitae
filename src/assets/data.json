@@ -1,11 +1,60 @@
 {
     "name": "Paulo Sócrates",
     "full_name": "Paulo Sócrate de Souza Pinheiro",
+    "email": "paulosocratesdesouza@gmail.com",
+    "profile_photo": "public/imgs/profile.jpg",
+
     "social_medias": {
-        "github": "",
-        "linkedin": "",
-        "instagram": "",
-        "facebook": ""
+        "github": "https://github.com/PauloS5",
+        "linkedin": "https://www.linkedin.com/in/paulo-socrates-de-souza",
+        "instagram": "https://www.instagram.com/socrates.php",
+        "beecrowd": "https://judge.beecrowd.com/pt/profile/1081469"
     },
-    "technologies": ["Spring Boot", "Angular", "Vue", "PHP PDO", "Git", "Docker", "Python"]
+
+    "technologies": ["Spring Boot", "Angular", "Vue", "PHP PDO", "Git", "Docker", "Python"],
+
+    "experiences": [
+        {
+            "title": "CAES",
+            "stack_holder": "PROAES",
+            "description": "Sistema com o intuito de cadastrar, abrir, se inscrever e gerenciar editais. Desenvolvido para a Prorreitoria de Assuntos Estudantis da Univeridade Federal do Acre.",
+            "habilities": ["Scrum", "Spring Boot", "Docker", "Angular", "Git"]
+        }
+    ],
+
+    "personal_projects": [
+        {
+            "title": "CLI Tools",
+            "git_repository": "https://github.com/PauloS5/my-cli-tool",
+            "deploy": "",
+            "description": "Ferramenta que reune um conjunto de algoritmos úteis para serem utilizados através de uma interface de linha de comando.",
+            "habilities": ["C++", "GCC", "Bash"]
+        },
+        {
+            "title": "Bee Codes",
+            "git_repository": "https://github.com/PauloS5/bee-code",
+            "deploy": "",
+            "description": "Repositório que contém a resolução de códigos da plataforma Beecrowd.",
+            "habilities": ["C", "C++", "Python", "SQL"]
+        }
+    ],
+
+    "education": [
+        {
+            "title": "Técnico em Informática para Internet",
+            "institution": "Instituto Federal do Acre",
+            "description": "Curso técnico voltado ao desenvolvimento de Aplicativos Web",
+            "start_year": 2024,
+            "end_year": 2026,
+            "duration": "3 anos",
+            "habilities": ["HTML", "CSS", "Javascript", "PHP", "MySQL", "Scrum"]
+        },
+        {
+            "title": "Web Academy",
+            "institution": "Instituto Federal do Acre + Motorola",
+            "description": "Curso voltado à prática e desenvolvimento de Aplicações Web Full-stacks.",
+            "duration": "7 meses",
+            "habilities": ["Spring Boot", "Angular", "Docker", "Github Actions", "Kanban", "Scrum", "MySQL"]
+        }
+    ]
 }
