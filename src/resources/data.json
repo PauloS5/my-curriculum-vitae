@@ -1,0 +1,11 @@
+{
+    "name": "Paulo Sócrates",
+    "full_name": "Paulo Sócrate de Souza Pinheiro",
+    "social_medias": {
+        "github": "",
+        "linkedin": "",
+        "instagram": "",
+        "facebook": ""
+    },
+    "technologies": ["Spring Boot", "Angular", "Vue", "PHP PDO", "Git", "Docker", "Python"]
+}
