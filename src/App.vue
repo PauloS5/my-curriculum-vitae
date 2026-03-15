@@ -5,8 +5,6 @@
 </script>
 
 <template>
-  <header> Cabeçalho </header>
-
   <RouterView />
 
   <footer> Rodapé </footer>
